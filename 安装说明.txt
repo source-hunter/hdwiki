@@ -1,0 +1,8 @@
+请参考document目录下install.html文件，请使用IE或Firefox浏览器方式打开阅读。
+
+建议：
+推荐您下载使用UTF-8版本的HDWiki，GBK版本不支持多语言文字和某些特殊符号，
+当使用百科联盟插件从互动主站导入词条时，那些不被GBK支持的字符将变成"?"。
+
+
+欢迎反馈问题或建议。http://kaiyuan.hudong.com/bbs/
