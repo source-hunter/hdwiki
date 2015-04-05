@@ -19,7 +19,6 @@ class noticemailmodel {
 		$mail_uids = array();
 		if(!empty($noticemail_config['doc-create'])) {
 			$doc_firstimg = $this->getfirstimg($doc['content']);
-			var_dump($this->mailtpl['doc_create']);exit;
 			$mail_subject = str_replace(
 				array('_USERNAME_', '_DOCTITLE_'), 
 				array($this->base->user['username'], $doc['title']), 
@@ -37,7 +36,6 @@ class noticemailmodel {
 		}
 		if(count($mail_uids) > 0) {
 			$this->base->load('mail');
-			var_dump($mail_message);exit;
 			$_ENV['mail']->add($mail_uids, array(), $mail_subject, $mail_message);
 		}
 	}
